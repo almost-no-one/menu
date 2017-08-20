@@ -1,90 +1,67 @@
+$red_menu: #f96b60; 
+$menu_bg: #151515;
+
 @media screen and (max-width: 1030px){
 	.header_contact{ 
 		position: fixed; 
 		left: 80px;	
 	}
-}
-@media screen and (max-width: 720px){
-	.sub_menu_conteiner{
-		visibility: hidden;
-		position: fixed;
-		top: 70px;
-		left: 0;
-		width: 250px;
-	}
 	.juwelery{
-		.menu_lv_2{
-			display: block;
-			width: 100%;
-			h2{
-				color: #fff;
-				display: block;
-			}
-			img{
-				display: none!important;
-			}
-			ul{
-				display: none;
-
-			}
-		}
-	}
-	.row_for_menu_fixed{
-		left: 0; 
-		top: 0;
-		bottom: 0;
-		width: 250px;
-		right: auto;	 
-		.header_menu{
-			display: block;
-		}
-		.header_contact_mobile{
-			display: block;
-		}
-	} 
-	.header_menu{
-		display: none;
-		margin: 0;
-		padding-top: 80px;
-		>li{
-			text-align-last: auto;
-			margin-left: 20px;
-
-			display: block;
-			>a{
-				padding-left: 15px !important;
-				text-align: left;
-
-			}
-			>a:after{
-				display: none !important;
-			}
-			&:first-child{ 
-				margin-left: 20px;
-				&:before{
-					display:  block!important;
-				}
-			}
-		} 
-	}
-	ul.header_menu{
-		.row{
+		img{
 			display: none;
-			visibility: hidden;
 		}
 	}
-	.header_contact{  
-		top: auto;
-		bottom: 20px; 
-		left: 40px;
-		z-index: 150;
+	.juw_list{
+    li{  
+     padding-left: 20px;
+     
+     &:before{
+       display: none;
+    }
+  }
+}
+}
+@media screen and (max-width: 900px){
+ 
+	header.clam_head{
+    padding-top: 45px;
+}
+
+
+.row.row_reletiv.row_for_menu{
+	display: none;
+}
+
+	#fix_menu_wrapper{
+    
+    background-color: transparent; 
+   
+    .header_contact{  
+        visibility: hidden;
+        display: none;
+    }
+    
+    .col_menu_btn{
+        display: block;
+        padding-left: 0; 
+    }
+    .menu_btn{
+         
+        background-image: url('../img/menu_btn.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: transparent;
+        padding: 24px;
+        visibility: visible;
+        outline: none;
+         
+    }
+    
+  }
+	}
+@media screen and (max-width: 720px){
+	 .header_contact{ 
 		display: none;
 	}
-	.menu_btn_cls{
-		position: fixed;
-		z-index: 150;
-		top: 0;
-		left: 250px;
-	}
-
 }
+ 
