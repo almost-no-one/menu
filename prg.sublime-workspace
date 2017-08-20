@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"add",
+				"addClass"
+			],
+			[
+				"fix",
+				"fix_menu_wrapper\t(index.html)"
+			],
+			[
+				"tes",
+				"test_block\t(index.html)"
+			],
+			[
 				"hea",
 				"header_menu"
 			],
@@ -219,24 +231,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/css/style.scss",
-			"settings":
-			{
-				"buffer_size": 9911,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/index.html",
-			"settings":
-			{
-				"buffer_size": 9039,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -410,20 +404,20 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/версткв/Documents/domain/menu/src",
-		"/C/Users/версткв/Documents/domain/menu/src/css",
-		"/C/Users/версткв/Documents/domain/menu/src/js"
+		"/C/OpenServer/domains/fromwork-home/menu/src",
+		"/C/OpenServer/domains/fromwork-home/menu/src/css",
+		"/C/OpenServer/domains/fromwork-home/menu/src/js"
 	],
 	"file_history":
 	[
+		"/C/OpenServer/domains/fromwork-home/menu/src/js/common.js",
+		"/C/OpenServer/domains/fromwork-home/menu/src/index.html",
+		"/C/OpenServer/domains/fromwork-home/menu/src/css/display.scss",
+		"/C/OpenServer/domains/fromwork-home/menu/src/css/style.scss",
 		"/C/Users/версткв/Documents/domain/menu/src/css/display.scss",
 		"/C/Users/версткв/Documents/domain/menu/src/css/style.scss",
 		"/C/Users/версткв/Documents/domain/menu/src/index.html",
 		"/C/Users/версткв/Documents/domain/menu/src/js/common.js",
-		"/C/OpenServer/domains/fromwork-home/menu/src/css/style.scss",
-		"/C/OpenServer/domains/fromwork-home/menu/src/js/common.js",
-		"/C/OpenServer/domains/fromwork-home/menu/src/css/display.scss",
-		"/C/OpenServer/domains/fromwork-home/menu/src/index.html",
 		"/C/Users/версткв/Documents/domain/menu/.git/info/exclude",
 		"/C/Users/версткв/Documents/domain/golden/src/css/style.scss",
 		"/C/Users/версткв/Documents/domain/golden-wp/golden/header.php",
@@ -562,6 +556,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".logo_image_mobile",
+			"logo_image_mobile",
+			"fixed",
+			"fix",
+			"menu_btn",
+			"menu_b",
+			"vis_hid",
+			"dev",
+			"}\n",
+			"dev",
+			"juw",
+			"dev",
+			"no",
+			"juw",
 			"menu",
 			"_ngcontent-c4=\"\"",
 			"logo_image",
@@ -675,21 +683,7 @@
 			">div",
 			"@",
 			"opa",
-			"RobotoBold",
-			"extend",
-			"bounda",
-			"baunde",
-			"@",
-			"P{",
-			"img",
-			".img",
-			"}",
-			"boundary",
-			"img",
-			"contan",
-			"contant",
-			"conte",
-			"n"
+			"RobotoBold"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -720,82 +714,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/css/style.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9911,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4248,
-								4248
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3600.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 1,
-					"file": "src/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9039,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -827,7 +752,7 @@
 		"cols":
 		[
 			0.0,
-			0.438404292844,
+			0.427933760538,
 			1.0
 		],
 		"rows":
@@ -887,7 +812,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
@@ -895,7 +820,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 240.0,
+	"side_bar_width": 148.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

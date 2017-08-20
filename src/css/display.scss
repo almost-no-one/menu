@@ -20,9 +20,14 @@ $menu_bg: #151515;
     }
   }
 }
+ .basket{
+ 	margin-right: 50px;	
+ }
 }
 @media screen and (max-width: 900px){
- 
+ .basket{
+ 	margin-right: 50px;	
+ }
 	header.clam_head{
     padding-top: 45px;
 }
@@ -38,7 +43,7 @@ $menu_bg: #151515;
    
     .header_contact{  
         visibility: hidden;
-        display: none;
+        //display: none;
     }
     
     .col_menu_btn{

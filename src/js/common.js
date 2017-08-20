@@ -21,19 +21,24 @@ $( window ).load(function() {
 //  $('.header_menu').removeClass('header_menu_large');
 //});
 
-//$('.perent').on('click', function(e) {
-//  e.preventDefault();  
-//  $('.menu_btn_prev').addClass('show');
-//  $('.logo_image_mobile').removeClass('show'); 
-//  if($(this).hasClass('about')){      
-//    $('.header_menu').addClass('vis_hid');
-//  }
-//  if($(this).hasClass('juwelery')){      
-//    $('.header_menu').addClass('vis_hid');
-//    $('.menu_lv_2').addClass('vis_vis');
-//  }
-//});
+//-------------------------------------------------------
+$(".row_for_menu .menu_lv_1").clone().appendTo(".mobile_menu"); 
+//$(".mobile_menu li").removeClass();
+$(".mobile_menu li > div").remove();
 
+
+$('.mobile_menu .perent').on('click', function(e) {
+  e.preventDefault();  
+  var index=$(this).index();
+  $(".mobile_menu li").remove();
+  $(".row_for_menu .menu_lv_1:eq("+index+") .menu_lv_2").clone().appendTo(".mobile_menu");
+ 
+   
+  //if($(this).hasClass('juwelery')){      
+  // 
+  //}
+});
+//--------------------------------------------------------
 $('.menu_btn_prev').on('click', function(e) {
 
   //$('.menu_btn_prev').removeClass('show');
@@ -42,7 +47,8 @@ $('.menu_btn_prev').on('click', function(e) {
 
 });
 
-$(".menu_lv_1").appendTo(".mobile_menu");
+
+
 
 var avatarElem = document.getElementById('fix_menu_wrapper');
 
