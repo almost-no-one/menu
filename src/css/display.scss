@@ -2,6 +2,10 @@ $red_menu: #f96b60;
 $menu_bg: #151515;
 
 @media screen and (max-width: 1030px){
+    .collect ul {
+  
+    column-count: 4;
+}
 	.header_contact{ 
 		position: fixed; 
 		left: 80px;	

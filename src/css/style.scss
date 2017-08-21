@@ -102,7 +102,7 @@ body{
         height: auto;
     }
 }
- 
+
 .logo_image_mobile{
     position: absolute;
     top: 0;
@@ -265,6 +265,7 @@ body{
     overflow: hidden;
     li{
         padding-left: 10px;
+        margin-bottom: 7px;
     }
     h2{
         font-size: 18px;
@@ -308,10 +309,21 @@ body{
     ul{
         column-count: 2;
     }
+    h2{
+        margin-bottom: 23px;
+    }
 }
 .present{
     .sub_menu_conteiner{  
         padding: 21px 15px 18px 21px; 
+    }
+        .menu_lv_2 > a{
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 22px;
+        &:before{
+            display: none;
+        }
     }
 }
 // -dev
@@ -322,9 +334,10 @@ body{
     }
 }
 .cat_prev_img{
-    min-height: 342px;
+    min-height: 415px;
     background-size: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .cat_list{
     padding: 20px 0px 20px 20px ;
@@ -333,7 +346,7 @@ body{
     }
 }
 .sub_menu_conteiner_col_2{
-    min-height: 320px; 
+    min-height: 353px; 
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -390,20 +403,36 @@ body{
     opacity: 0.7;
 } 
 }
+.juwelery ul{
+
+    li.menu_lv_2{
+
+        ul{
+            margin: 20px 0;
+        }
+        >a{
+            padding: 0; 
+            padding-left: 10px;
+            font-size: 18px;
+            font-weight: 700;
+            margin: 0;
+        }
+    }
+}
 .juwelery{
     ul{
-        margin: 20px 0;
+        margin: 0px 0;
     }
     img{
         height: 70px;
         width: auto;
     }
-    li{
-        display: inline-block;
-    }
-    li, img{
+    .menu_lv_2 > a, img{
         margin-left: 10px;
         margin-bottom: 20px;
+        &:before{
+            display: none;
+        }
     }
     .sub_menu_conteiner{
         padding: 55px 0 44px 0;
@@ -438,7 +467,7 @@ body{
      background-position: 0 center;
      background-repeat: no-repeat;
      padding-left: 70px;
-     margin-bottom: 12px; 
+     margin-bottom: 17px; 
      position: relative;
      &:before{
         height: 60px;
@@ -496,12 +525,12 @@ body{
     color: #fff;
     background-color: rgba(0,0,0, .6); 
     min-height: 48px;
-.btn_menu_fix{
-    position: fixed;
-    left: 40%;
-    top: 0px;
-    z-index: 110;
-}
+    .btn_menu_fix{
+        position: fixed;
+        left: 40%;
+        top: 0px;
+        z-index: 110;
+    }
     .header_contact{  
         margin-top: 5px;
     }
@@ -676,29 +705,29 @@ header.clam_head{
 .mobile_menu{
     overflow: scroll;
     height: 100%;
-      > li > a {
-    font-weight: 300;
-    position: relative;
-    display: block;
-    padding: 5px  0;
-    color: #fff;
-    font-size: 16px;
-}
-  > li:before {
-    position: relative;
-    top: 16px;
-    left: -24px;
-    display: block;
-    width: 6px;
-    height: 6px;
-    content: '';
-    border: 1px rgba(195, 195, 215, 0.7) solid;
-    border-radius: 50%;
-}
-  > li {
-    display: block;
-    margin-left: 48px;
-    margin-bottom: 20px;
-}
+    > li > a {
+        font-weight: 300;
+        position: relative;
+        display: block;
+        padding: 5px  0;
+        color: #fff;
+        font-size: 16px;
+    }
+    > li:before {
+        position: relative;
+        top: 16px;
+        left: -24px;
+        display: block;
+        width: 6px;
+        height: 6px;
+        content: '';
+        border: 1px rgba(195, 195, 215, 0.7) solid;
+        border-radius: 50%;
+    }
+    > li {
+        display: block;
+        margin-left: 48px;
+        margin-bottom: 20px;
+    }
 
 }
