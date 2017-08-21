@@ -398,7 +398,10 @@ body{
         height: 70px;
         width: auto;
     }
-    h2, img{
+    li{
+        display: inline-block;
+    }
+    li, img{
         margin-left: 10px;
         margin-bottom: 20px;
     }
