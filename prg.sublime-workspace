@@ -404,20 +404,21 @@
 	},
 	"expanded_folders":
 	[
-		"/C/OpenServer/domains/fromwork-home/menu/src",
-		"/C/OpenServer/domains/fromwork-home/menu/src/css",
-		"/C/OpenServer/domains/fromwork-home/menu/src/js"
+		"/C/Users/версткв/Documents/domain/menu/src",
+		"/C/Users/версткв/Documents/domain/menu/src/css",
+		"/C/Users/версткв/Documents/domain/menu/src/js"
 	],
 	"file_history":
 	[
+		"/C/Users/версткв/Documents/domain/menu/src/css/style.scss",
+		"/C/Users/версткв/Documents/domain/menu/src/js/common.js",
+		"/C/Users/версткв/Documents/domain/menu/src/css/display.scss",
+		"/C/Users/версткв/Documents/domain/menu/src/index.html",
+		"/C/Users/версткв/AppData/Local/Temp/fz3temp-2/common.js",
 		"/C/OpenServer/domains/fromwork-home/menu/src/index.html",
 		"/C/OpenServer/domains/fromwork-home/menu/src/js/common.js",
 		"/C/OpenServer/domains/fromwork-home/menu/src/css/display.scss",
 		"/C/OpenServer/domains/fromwork-home/menu/src/css/style.scss",
-		"/C/Users/версткв/Documents/domain/menu/src/css/display.scss",
-		"/C/Users/версткв/Documents/domain/menu/src/css/style.scss",
-		"/C/Users/версткв/Documents/domain/menu/src/index.html",
-		"/C/Users/версткв/Documents/domain/menu/src/js/common.js",
 		"/C/Users/версткв/Documents/domain/menu/.git/info/exclude",
 		"/C/Users/версткв/Documents/domain/golden/src/css/style.scss",
 		"/C/Users/версткв/Documents/domain/golden-wp/golden/header.php",
@@ -536,8 +537,7 @@
 		"/C/OpenServer/OpenServer/domains/gulp2/index.html",
 		"/C/OpenServer/OpenServer/domains/gulp2/bower.json",
 		"/C/OpenServer/OpenServer/domains/gulp2/bower_components/fancybox-3.0/gulpfile.js",
-		"/C/OpenServer/OpenServer/domains/gulp2/bower_components/fancybox-3.0/bower.json",
-		"/C/OpenServer/OpenServer/domains/gulp2/dist/index.html"
+		"/C/OpenServer/OpenServer/domains/gulp2/bower_components/fancybox-3.0/bower.json"
 	],
 	"find":
 	{
@@ -556,6 +556,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"heade",
+			".header_menu",
+			"header_menu",
+			"header_menu ",
+			"header",
+			"header_contact",
+			"present",
+			"h2",
 			".logo_image_mobile",
 			"logo_image_mobile",
 			"fixed",
@@ -675,15 +683,7 @@
 			"li",
 			"li{",
 			"ul li{",
-			"letter-spacing",
-			"tr",
-			"transi",
-			"flipiny",
-			"tabs",
-			">div",
-			"@",
-			"opa",
-			"RobotoBold"
+			"letter-spacing"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -752,7 +752,7 @@
 		"cols":
 		[
 			0.0,
-			0.427933760538,
+			0.349215864511,
 			1.0
 		],
 		"rows":
@@ -820,7 +820,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 148.0,
+	"side_bar_width": 250.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

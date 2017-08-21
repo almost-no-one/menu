@@ -45,6 +45,9 @@ header{
     height: 1000px;
     background-color: #6384C8;
 }
+html{
+    overflow-x: hidden;
+}
 body{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
@@ -174,6 +177,11 @@ body{
 
 .header_menu.header_menu_large{
     position: static;
+    margin-top: -1px;
+}
+.header_menu.header_menu_1{
+    
+    margin-top: -0px;
 }
 .header_menu{
 
@@ -214,11 +222,11 @@ body{
 
             &:after{
                 position: absolute;
-                bottom: 0;
+                bottom: -1px;
                 left: 50%;
 
                 display: none;
-
+                z-index: 60;
                 width: 28px;
                 height: 15px;
 
@@ -263,6 +271,7 @@ body{
     padding: 21px 25px 18px 3px; 
     background-color: #fff;
     overflow: hidden;
+   box-shadow: 2px 9px 71px 6px rgba(0,0,0,0.5);
     li{
         padding-left: 10px;
         margin-bottom: 7px;
@@ -568,6 +577,11 @@ body{
         margin-top: 5px;
     }
 } 
+.lv_2{
+    .menu_lv_2 ul{
+        display: none;
+    }
+}
 .menu_btn_prev{
     position: fixed;
     top: 0;
@@ -578,6 +592,10 @@ body{
     background-color: $menu_bg;
     padding: 24px;
     display: none;
+    outline: none;
+    &:hover{
+        background-color: $menu_bg;
+    }
 }
 .col_menu_btn{ 
     overflow: hidden;
@@ -609,10 +627,12 @@ body{
     display: block !important;
 }
 .header_contact_mobile{
-    display: none;
+        bottom: 25px;
+    left: 50%;
+    width: 180px;
     position: absolute;
-    bottom: 20px;
-    left: 40px;
+    transform: translateX(-50%);
+     
 }
 .mobile_courusel{
     text-align: justify;
@@ -681,16 +701,29 @@ header.clam_head{
 }
 .mobile_menu_wrapper{
     position: fixed;
-    z-index: 100;
+    z-index: 101;
     left: 0;
     top: 0;
     bottom: 0;
     width: 40%;
     background-color: $menu_bg;
     display: none;
+    .mobile_des{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 45px;
+        right: 0;
+        font-size: 14px;
+        color: #fff;
+        line-height: 48px;
+        padding-left: 14px;
+        background-color: #363636;
+        display: none;
+    }
 }
 .mobile_menu{
-    padding-top: 65px;
+    padding-top: 0px;
 }
 .btn_menu_fix{
     position: fixed;
@@ -703,8 +736,10 @@ header.clam_head{
   width: 60%;
 }
 .mobile_menu{
-    overflow: scroll;
-    height: 100%;
+    overflow-y: hidden;
+    position: absolute;
+    bottom: 60px;
+    top: 55px;
     > li > a {
         font-weight: 300;
         position: relative;
